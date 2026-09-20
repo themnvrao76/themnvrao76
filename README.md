@@ -1,25 +1,19 @@
 <p align="center">
-  <img src="assets/profile-hero.svg" width="100%" alt="Manav Barot — AI Research, Computer Vision, Multimodal and 3D Intelligence">
-</p>
-
-<h1 align="center">Hi, I'm Manav Barot</h1>
-
-<p align="center">
-  <strong>Ph.D. Candidate · AI Research · Computer Vision · Vision-Language Models · Multimodal & 3D AI</strong>
+  <img src="assets/profile-hero.svg" width="100%" alt="Manav Barot — Ph.D. Candidate researching vision-language models, multimodal AI and 3D human understanding">
 </p>
 
 <p align="center">
-  Building systems that connect <strong>vision, language, geometry, and human understanding</strong>.
+  <strong>Researching grounded multimodal systems that connect visual perception, language, geometry, and human understanding.</strong>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/themnvrao76/"><strong>LinkedIn</strong></a>
   &nbsp;•&nbsp;
-  <a href="https://github.com/themnvrao76"><strong>GitHub</strong></a>
-  &nbsp;•&nbsp;
   <a href="#featured-projects"><strong>Featured Projects</strong></a>
   &nbsp;•&nbsp;
   <a href="#research-focus"><strong>Research Focus</strong></a>
+  &nbsp;•&nbsp;
+  <a href="#technical-toolkit"><strong>Technical Toolkit</strong></a>
 </p>
 
 ---
