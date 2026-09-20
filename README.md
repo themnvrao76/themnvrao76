@@ -118,7 +118,7 @@ An image-to-language architecture that uses a pretrained MaxViT vision backbone 
 ## Research Focus
 
 <p align="center">
-  <img src="assets/research-orbit.svg" width="100%" alt="Research focus: vision-language models, 3D human understanding, computer vision, multimodal learning and grounded AI">
+  <img src="assets/research-architecture-v2.svg" width="100%" alt="Research focus: vision-language models, 3D human understanding, computer vision, multimodal learning and grounded AI">
 </p>
 
 | Area | What interests me |
