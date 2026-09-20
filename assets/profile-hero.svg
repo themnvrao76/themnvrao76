@@ -1,65 +1,131 @@
-<svg width="1400" height="500" viewBox="0 0 1400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="500">
-      <stop stop-color="#07111A"/>
-      <stop offset="0.45" stop-color="#10182C"/>
-      <stop offset="1" stop-color="#0A1220"/>
-      <animate attributeName="x1" values="0;180;0" dur="14s" repeatCount="indefinite"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071019"/>
+      <stop offset="0.52" stop-color="#0B1324"/>
+      <stop offset="1" stop-color="#0A111D"/>
     </linearGradient>
-    <linearGradient id="line" x1="250" y1="0" x2="1150" y2="0">
+    <linearGradient id="accent" x1="90" y1="0" x2="690" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#67E8F9"/>
-      <stop offset="0.45" stop-color="#A78BFA"/>
+      <stop offset="0.55" stop-color="#A78BFA"/>
       <stop offset="1" stop-color="#4ADE80"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="card" x1="760" y1="80" x2="1310" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121D31" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#0B1423" stop-opacity=".96"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#23324A" stroke-width="1" opacity=".20"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="1400" height="500" rx="32" fill="url(#bg)"/>
+  <rect width="1400" height="560" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="560" rx="34" fill="url(#grid)"/>
 
-  <g opacity=".65">
-    <circle cx="130" cy="88" r="4" fill="#67E8F9">
-      <animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1265" cy="95" r="3.5" fill="#4ADE80">
-      <animate attributeName="opacity" values="1;.2;1" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1225" cy="405" r="3.5" fill="#A78BFA">
-      <animate attributeName="opacity" values=".15;1;.15" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="205" cy="410" r="3" fill="#67E8F9">
-      <animate attributeName="opacity" values="1;.15;1" dur="3.8s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <circle cx="1180" cy="70" r="150" fill="#8B5CF6" opacity=".055"/>
+  <circle cx="1325" cy="500" r="190" fill="#22C55E" opacity=".045"/>
+  <circle cx="75" cy="480" r="160" fill="#22D3EE" opacity=".035"/>
 
-  <text x="700" y="142" text-anchor="middle" fill="#F4F7FF"
-        font-size="62" font-family="Arial, Helvetica, sans-serif" font-weight="700">MANAV BAROT</text>
-  <text x="700" y="190" text-anchor="middle" fill="#AEBBDA"
-        font-size="24" font-family="Arial, Helvetica, sans-serif">AI Research • Computer Vision • Multimodal &amp; 3D Intelligence</text>
+  <!-- LEFT: academic identity -->
+  <text x="92" y="92" fill="#7E90B5" font-size="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="3">
+    RESEARCH PROFILE
+  </text>
 
-  <line x1="250" y1="285" x2="1150" y2="285" stroke="url(#line)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+  <text x="90" y="175" fill="#F6F8FC" font-size="68" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    MANAV BAROT
+  </text>
 
-  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-    <circle cx="285" cy="285" r="16" fill="#0A1220" stroke="#67E8F9" stroke-width="4"/>
-    <text x="285" y="336" fill="#D2DCF2" font-size="16">VISION</text>
+  <rect x="90" y="204" width="545" height="5" rx="2.5" fill="url(#accent)">
+    <animate attributeName="width" values="180;545;180" dur="7s" repeatCount="indefinite"/>
+  </rect>
 
-    <circle cx="505" cy="285" r="16" fill="#0A1220" stroke="#7DD3FC" stroke-width="4"/>
-    <text x="505" y="336" fill="#D2DCF2" font-size="16">LANGUAGE</text>
+  <text x="90" y="258" fill="#DDE6F6" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="600">
+    Ph.D. Candidate · Systems Science
+  </text>
 
-    <circle cx="725" cy="285" r="16" fill="#0A1220" stroke="#A78BFA" stroke-width="4"/>
-    <text x="725" y="336" fill="#D2DCF2" font-size="16">GEOMETRY</text>
+  <text x="90" y="296" fill="#9EADD0" font-size="20" font-family="Arial, Helvetica, sans-serif">
+    State University of New York at Binghamton
+  </text>
 
-    <circle cx="945" cy="285" r="16" fill="#0A1220" stroke="#C084FC" stroke-width="4"/>
-    <text x="945" y="336" fill="#D2DCF2" font-size="16">MULTIMODAL</text>
+  <text x="90" y="364" fill="#67E8F9" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="600">
+    VISION-LANGUAGE MODELS
+  </text>
+  <text x="90" y="400" fill="#B8C5E1" font-size="18" font-family="Arial, Helvetica, sans-serif">
+    Multimodal AI · 3D Human Understanding · Grounded Reasoning
+  </text>
 
-    <circle cx="1145" cy="285" r="16" fill="#0A1220" stroke="#4ADE80" stroke-width="4"/>
-    <text x="1145" y="336" fill="#D2DCF2" font-size="16">FRONTIER AI</text>
-  </g>
+  <text x="90" y="463" fill="#7888A7" font-size="17" font-family="Arial, Helvetica, sans-serif">
+    Researching systems that connect language, vision, geometry, and human understanding.
+  </text>
 
-  <text x="700" y="417" text-anchor="middle" fill="#7E8CAD"
-        font-size="18" font-family="Arial, Helvetica, sans-serif">
-    Building systems that connect vision, language, geometry and human understanding
+  <text x="90" y="507" fill="#5F6E8C" font-size="14" font-family="Arial, Helvetica, sans-serif" letter-spacing="1.4">
+    RESEARCH  /  BUILD  /  EVALUATE  /  PUBLISH
+  </text>
+
+  <!-- RIGHT: research pipeline -->
+  <rect x="760" y="66" width="550" height="428" rx="28" fill="url(#card)" stroke="#273754" stroke-width="1.4"/>
+
+  <text x="800" y="105" fill="#6F80A2" font-size="13" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="2">
+    CURRENT RESEARCH STACK
+  </text>
+
+  <text x="1195" y="105" text-anchor="end" fill="#53627D" font-size="13" font-family="monospace">
+    multimodal reasoning
+  </text>
+
+  <!-- model cards -->
+  <rect x="798" y="144" width="145" height="82" rx="15" fill="#101B2E" stroke="#2C4661"/>
+  <text x="870" y="176" text-anchor="middle" fill="#7DD3FC" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">VISION</text>
+  <text x="870" y="198" text-anchor="middle" fill="#8FA1C2" font-size="12" font-family="Arial, Helvetica, sans-serif">image encoder</text>
+
+  <rect x="798" y="272" width="145" height="82" rx="15" fill="#101B2E" stroke="#4B3C70"/>
+  <text x="870" y="304" text-anchor="middle" fill="#C4B5FD" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">GEOMETRY</text>
+  <text x="870" y="326" text-anchor="middle" fill="#8FA1C2" font-size="12" font-family="Arial, Helvetica, sans-serif">3D human signals</text>
+
+  <rect x="798" y="400" width="145" height="56" rx="15" fill="#101B2E" stroke="#315740"/>
+  <text x="870" y="434" text-anchor="middle" fill="#86EFAC" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">LANGUAGE</text>
+
+  <rect x="1072" y="220" width="198" height="138" rx="20" fill="#0D182A" stroke="#7656B8" stroke-width="1.5"/>
+  <text x="1171" y="258" text-anchor="middle" fill="#E9E7FF" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">GROUNDED</text>
+  <text x="1171" y="282" text-anchor="middle" fill="#E9E7FF" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">MULTIMODAL</text>
+  <text x="1171" y="306" text-anchor="middle" fill="#E9E7FF" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700">REASONING</text>
+  <text x="1171" y="335" text-anchor="middle" fill="#8392B2" font-size="11.5" font-family="Arial, Helvetica, sans-serif">observe · compare · correct</text>
+
+  <!-- animated connectors -->
+  <path d="M943 185 C1000 185 1010 245 1072 253" stroke="#67E8F9" stroke-width="2.2" stroke-dasharray="8 8" opacity=".8">
+    <animate attributeName="stroke-dashoffset" values="0;-32" dur="2.2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M943 313 C1005 313 1015 294 1072 294" stroke="#A78BFA" stroke-width="2.2" stroke-dasharray="8 8" opacity=".8">
+    <animate attributeName="stroke-dashoffset" values="0;-32" dur="2.6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M943 428 C1000 428 1018 345 1072 333" stroke="#4ADE80" stroke-width="2.2" stroke-dasharray="8 8" opacity=".8">
+    <animate attributeName="stroke-dashoffset" values="0;-32" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- flowing signals -->
+  <circle r="5" fill="#67E8F9" filter="url(#softGlow)">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M943 185 C1000 185 1010 245 1072 253"/>
+  </circle>
+  <circle r="5" fill="#A78BFA" filter="url(#softGlow)">
+    <animateMotion dur="3.5s" repeatCount="indefinite" path="M943 313 C1005 313 1015 294 1072 294"/>
+  </circle>
+  <circle r="5" fill="#4ADE80" filter="url(#softGlow)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M943 428 C1000 428 1018 345 1072 333"/>
+  </circle>
+
+  <!-- subtle research notation -->
+  <text x="1005" y="156" fill="#465674" font-size="13" font-family="monospace">Attention(Q,K,V)</text>
+  <text x="1018" y="400" fill="#465674" font-size="13" font-family="monospace">∇θ L  ·  x → z → y</text>
+
+  <!-- status -->
+  <circle cx="801" cy="474" r="5" fill="#4ADE80">
+    <animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="817" y="479" fill="#7788A7" font-size="12" font-family="Arial, Helvetica, sans-serif">
+    active research profile
   </text>
 </svg>
