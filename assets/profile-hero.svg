@@ -1,0 +1,65 @@
+<svg width="1400" height="500" viewBox="0 0 1400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="500">
+      <stop stop-color="#07111A"/>
+      <stop offset="0.45" stop-color="#10182C"/>
+      <stop offset="1" stop-color="#0A1220"/>
+      <animate attributeName="x1" values="0;180;0" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="250" y1="0" x2="1150" y2="0">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.45" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#4ADE80"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="500" rx="32" fill="url(#bg)"/>
+
+  <g opacity=".65">
+    <circle cx="130" cy="88" r="4" fill="#67E8F9">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1265" cy="95" r="3.5" fill="#4ADE80">
+      <animate attributeName="opacity" values="1;.2;1" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1225" cy="405" r="3.5" fill="#A78BFA">
+      <animate attributeName="opacity" values=".15;1;.15" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="205" cy="410" r="3" fill="#67E8F9">
+      <animate attributeName="opacity" values="1;.15;1" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="700" y="142" text-anchor="middle" fill="#F4F7FF"
+        font-size="62" font-family="Arial, Helvetica, sans-serif" font-weight="700">MANAV BAROT</text>
+  <text x="700" y="190" text-anchor="middle" fill="#AEBBDA"
+        font-size="24" font-family="Arial, Helvetica, sans-serif">AI Research • Computer Vision • Multimodal &amp; 3D Intelligence</text>
+
+  <line x1="250" y1="285" x2="1150" y2="285" stroke="url(#line)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <circle cx="285" cy="285" r="16" fill="#0A1220" stroke="#67E8F9" stroke-width="4"/>
+    <text x="285" y="336" fill="#D2DCF2" font-size="16">VISION</text>
+
+    <circle cx="505" cy="285" r="16" fill="#0A1220" stroke="#7DD3FC" stroke-width="4"/>
+    <text x="505" y="336" fill="#D2DCF2" font-size="16">LANGUAGE</text>
+
+    <circle cx="725" cy="285" r="16" fill="#0A1220" stroke="#A78BFA" stroke-width="4"/>
+    <text x="725" y="336" fill="#D2DCF2" font-size="16">GEOMETRY</text>
+
+    <circle cx="945" cy="285" r="16" fill="#0A1220" stroke="#C084FC" stroke-width="4"/>
+    <text x="945" y="336" fill="#D2DCF2" font-size="16">MULTIMODAL</text>
+
+    <circle cx="1145" cy="285" r="16" fill="#0A1220" stroke="#4ADE80" stroke-width="4"/>
+    <text x="1145" y="336" fill="#D2DCF2" font-size="16">FRONTIER AI</text>
+  </g>
+
+  <text x="700" y="417" text-anchor="middle" fill="#7E8CAD"
+        font-size="18" font-family="Arial, Helvetica, sans-serif">
+    Building systems that connect vision, language, geometry and human understanding
+  </text>
+</svg>
