@@ -57,42 +57,59 @@ Open repositories that trace the evolution of computer vision, NLP, and modern A
 
 <a id="featured-projects"></a>
 
-## Featured Projects
+## Selected Research Projects
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### Classical → Modern Computer Vision
-**Landmark CV architectures implemented in PyTorch**
+### PhyViT-GAN
+**Physics-conditioned image synthesis for sub-pixel component alignment**
 
-LeNet, AlexNet, ResNet, DenseNet, MobileNet, EfficientNet, Vision Transformers and an expanding path into detection, segmentation, pose, multimodal and 3D vision.
+A physics-guided generative framework that conditions image synthesis on a simulated physical trajectory rather than pixels. The system combines an energy-minimization simulator, a latent generative model, and a MobileViTv2-based critic for physically grounded prediction.
 
-**[Explore the repository →](https://github.com/themnvrao76/Classical-to-Modern-Computer-Vision)**
+**Published in The International Journal of Advanced Manufacturing Technology.**
 
-</td>
-<td width="33%" valign="top">
-
-### Classical → Modern NLP
-**From Word2Vec to modern LLM systems**
-
-A chronological PyTorch journey through embeddings, recurrent networks, attention, Transformers, pretrained language models, PEFT, RAG and modern language-model components.
-
-**[Explore the repository →](https://github.com/themnvrao76/Classical-to-Modern-NLP)**
+[Repository →](https://github.com/themnvrao76/PhyViT-GAN-Physics-Guided-MobileViT-GAN) · [Paper →](https://doi.org/10.1007/s00170-025-17227-7)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### AI Roadmap — Scratch → Frontier
-**A research-oriented AI learning roadmap**
+### HierarchicalNets
+**Multi-level hierarchical classification of fine-grained yoga poses**
 
-Foundations, machine learning, deep learning, CV, NLP, LLMs, RAG, agents, diffusion, multimodal AI, reinforcement learning, AI systems, 3D vision and frontier research.
+A family of hierarchical vision-transformer architectures built around hybrid convolution-attention backbones such as CoAtNet and MaxViT. The project uses multi-level semantic supervision across 6, 20, and 82 pose classes to improve fine-grained recognition on Yoga-82.
 
-**[Explore the roadmap →](https://github.com/themnvrao76/AI-Roadmap-From-Scratch-to-Frontier)**
+[Repository →](https://github.com/themnvrao76/HierarchicalNets)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### FixMyPose
+**Visual pose comparison → natural-language correction**
+
+A human-centric vision-language project that compares two pose images, encodes their visual differences, and uses a Transformer decoder to generate language feedback. The repository also includes captioning-style evaluation components such as CIDEr and ROUGE.
+
+[Repository →](https://github.com/themnvrao76/FixMyPose-Project)
+
+</td>
+<td width="50%" valign="top">
+
+### Image Captioning with Transformers
+**MaxViT visual encoder + Transformer language decoder**
+
+An image-to-language architecture that uses a pretrained MaxViT vision backbone for visual representation and a Transformer decoder for autoregressive caption generation.
+
+[Repository →](https://github.com/themnvrao76/Image-Captioning-with-Transformers)
 
 </td>
 </tr>
 </table>
+
+> **Research theme:** combining visual representation learning, structured geometry, generative modeling, and language to solve fine-grained real-world perception problems.
 
 ---
 
@@ -200,15 +217,15 @@ I care about:
 
 ---
 
-## Selected Learning & Reference Repositories
+## Open Learning & Reference Projects
 
-These repositories are intentionally designed as long-running references rather than one-off demos.
+Alongside research, I maintain open repositories that organize important ideas across AI:
 
 | Repository | Purpose |
 |---|---|
-| **[Classical-to-Modern-Computer-Vision](https://github.com/themnvrao76/Classical-to-Modern-Computer-Vision)** | Trace the architectural evolution of computer vision |
-| **[Classical-to-Modern-NLP](https://github.com/themnvrao76/Classical-to-Modern-NLP)** | Trace the evolution of NLP and language models |
-| **[AI-Roadmap-From-Scratch-to-Frontier](https://github.com/themnvrao76/AI-Roadmap-From-Scratch-to-Frontier)** | A deep learning path from fundamentals to frontier AI |
+| **[Classical-to-Modern-Computer-Vision](https://github.com/themnvrao76/Classical-to-Modern-Computer-Vision)** | Landmark computer-vision architectures from classical CNNs to modern vision systems |
+| **[Classical-to-Modern-NLP](https://github.com/themnvrao76/Classical-to-Modern-NLP)** | A chronological path from distributed representations to modern NLP and LLM systems |
+| **[AI-Roadmap-From-Scratch-to-Frontier](https://github.com/themnvrao76/AI-Roadmap-From-Scratch-to-Frontier)** | A research-oriented roadmap from foundations to frontier AI |
 
 ---
 
