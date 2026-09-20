@@ -1,0 +1,27 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" rx="24" fill="#0B1020"/>
+  <circle cx="600" cy="160" r="54" fill="#121A31" stroke="#8B5CF6" stroke-width="3"/>
+  <text x="600" y="153" text-anchor="middle" fill="#F4F7FF" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700">RESEARCH</text>
+  <text x="600" y="181" text-anchor="middle" fill="#AEBBDA" font-size="14" font-family="Arial, Helvetica, sans-serif">FOCUS</text>
+
+  <ellipse cx="600" cy="160" rx="330" ry="110" stroke="#263451" stroke-width="2"/>
+  <ellipse cx="600" cy="160" rx="230" ry="76" stroke="#1D2942" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle" fill="#D7E0F5">
+    <text x="285" y="150">Vision-Language Models</text>
+    <text x="915" y="150">3D Human Understanding</text>
+    <text x="395" y="265">Computer Vision</text>
+    <text x="805" y="265">Grounded AI</text>
+    <text x="600" y="58">Multimodal Learning</text>
+  </g>
+
+  <circle r="9" fill="#67E8F9">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M270,160 C270,50 930,50 930,160 C930,270 270,270 270,160"/>
+  </circle>
+  <circle r="8" fill="#4ADE80">
+    <animateMotion dur="10s" repeatCount="indefinite" path="M370,160 C370,85 830,85 830,160 C830,235 370,235 370,160"/>
+  </circle>
+  <circle r="7" fill="#A78BFA">
+    <animateMotion dur="6.5s" repeatCount="indefinite" path="M930,160 C930,270 270,270 270,160 C270,50 930,50 930,160"/>
+  </circle>
+</svg>
